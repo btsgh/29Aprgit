@@ -1,0 +1,6 @@
+UPDATE product
+SET name = {{jsf_updateProduct.formData.name}},
+    description = {{jsf_updateProduct.formData.description}},
+    type = 'OTHER',
+		image = {{jsf_updateProduct.formData.image}}
+WHERE id = {{tbl_products.triggeredRow.id}};

@@ -1,0 +1,6 @@
+UPDATE product_variant
+  SET sku = {{tbl_products.triggeredRow.sku}},
+	low_stock = {{tbl_products.triggeredRow.low_stock}},
+	price = {{jsf_updateProduct.formData.price}},
+	cost = {{jsf_updateProduct.formData.cost}}
+  WHERE id = {{tbl_products.triggeredRow.product_variant_id}};
