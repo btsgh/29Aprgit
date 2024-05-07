@@ -1,6 +1,14 @@
 {
   "pages": [
     {
+      "id": "Send Messages",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Data",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }
@@ -26,7 +34,11 @@
   },
   "color": "#F3F1C7",
   "icon": "bird",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
